@@ -1,0 +1,26 @@
+<!DOCTYPE  ePASSRequest  SYSTEM  "ePASS3.dtd">
+<ePASSRequest  requestID="1"
+submitterOrganization="emptoris_hierarchy"
+submitterUser="asm"
+submitterPassword="123">
+submitterTimezone=”EST”
+<Options>
+<OptionKey=”...”  OptionValue=”...”/>
+</Options>
+<CatalogRequest>
+<createICA
+CatalogCode="emptoris_hierarchy">
+<ExtendedAttributeDefinition
+XADVisibility="read/write"
+XADVisibleInLists="true"
+XADUseInSearch="No"
+XADDefaultValue="default  value  string"
+XADDescription="category_req_text_single_ica"
+XADIsRequired="true"
+XADDataType="Text_single"
+XADScope="category"
+XADName="_B087_category_req_text_single_ica"
+XADDomain="category"/>
+</createICA>
+</CatalogRequest>
+</ePASSRequest>
